@@ -3,7 +3,7 @@ from leap_year import leap_year
 
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
+    def test_leap_year(self):
         self.assertTrue(leap_year(2024))
 
         self.assertFalse(leap_year(2021))
